@@ -15,7 +15,7 @@ To build, you'll need a JDK. 11 is probably fine. 8 works too, just tested it.
 
 clone the repo
 
-```> git clone github.com/notkaj/dmvsnare.git```
+```> git clone https://github.com/notkaj/dmvsnare.git```
 
 make gradlew executable and build
 
