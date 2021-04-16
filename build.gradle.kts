@@ -10,7 +10,7 @@ application {
 }
 
 group = "com.kaj"
-version = "1.0-SNAPSHOT"
+version = "0.2"
 val ktorVersion = "1.5.3"
 val logbackVersion = "1.2.3"
 
