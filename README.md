@@ -11,16 +11,18 @@ Make sure you have all the targets you want, enter your details in the User obje
 
 
 # Building 
-To build, you'll need a JDK. 11 is probably fine.
+To build, you'll need a JDK. 11 is probably fine. 8 works too, just tested it.
 
 clone the repo
 
-```git clone github.com/notkaj/dmvsnare.git```
+```> git clone github.com/notkaj/dmvsnare.git```
 
-build
+make gradlew executable and build
 
-```gradlew build```
+```> chmod +x gradlew```
+
+```> ./gradlew build```
 
 run
 
-```gradlew run```
+```> ./gradlew run```
