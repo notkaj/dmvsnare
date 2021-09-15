@@ -14,8 +14,8 @@ import kotlinx.datetime.*
 
 fun main() {
     val targets = listOf(
-        Target(Location.WRALEIGH, LocalDate(2020, Month.APRIL, 15), AppointmentType.KNOWLEDGE),
-        Target(Location.GARNER, LocalDate(2021, Month.APRIL, 15), AppointmentType.KNOWLEDGE),
+        Target(Location.WRALEIGH, LocalDate(2020, Month.SEPTEMBER, 24), AppointmentType.ROAD TEST),
+        Target(Location.GARNER, LocalDate(2021, Month.SEPTEMBER, 24), AppointmentType.ROAD TEST),
         Target(Location.NRALEIGH, LocalDate(2020, Month.APRIL, 15), AppointmentType.KNOWLEDGE),
         Target(Location.CARY, LocalDate(2021, Month.APRIL, 15), AppointmentType.KNOWLEDGE),
         Target(Location.WRALEIGH, LocalDate(2021, Month.APRIL, 16), AppointmentType.KNOWLEDGE),
@@ -38,8 +38,8 @@ fun main() {
 }
 
 object User {
-    const val firstName = "John"
-    const val lastName = "Doe"
-    const val email = "example%40example.com" //keep the @ as %40
-    const val phone = "5551234567"
+    const val firstName = "Laura"
+    const val lastName = "Castro Guerrero"
+    const val email = "lauracastro%40gmail.com" //keep the @ as %40
+    const val phone = "3363802779"
 }
